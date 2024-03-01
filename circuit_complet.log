@@ -1,0 +1,190 @@
+Circuit: * C:\Users\handr\Desktop\SCIA PROIECT!\circuit_complet.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node x1:va.  This node is used by v:x1:in1.
+WARNING: Less than two connections to node x1:vb.  This node is used by v:x1:in2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:   d:x1:u1:5   d:x1:u1:6   d:x1:u1:3   d:x1:u1:1   d:x1:u1:2
+Model:   x1:u1:y     x1:u1:y    x1:u1:dc   x1:u1:dbias x1:u1:dbias
+Id:     -4.90e-19    4.90e-19    6.32e-03   -4.00e-06   -4.00e-06
+Vd:     -4.90e-07    4.90e-07    3.00e+01   -2.57e+01   -2.57e+01
+Req:     1.00e-12    1.00e-12    1.00e-02    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:   d:x2:u1:5   d:x2:u1:6   d:x2:u1:3   d:x2:u1:1   d:x2:u1:2
+Model:   x2:u1:y     x2:u1:y    x2:u1:dc   x2:u1:dbias x2:u1:dbias
+Id:      4.55e-16   -4.55e-16    6.32e-03   -4.00e-06   -4.00e-06
+Vd:      4.54e-04   -4.54e-04    3.00e+01   -1.50e+01   -1.50e+01
+Req:     1.00e-12    1.00e-12    1.00e-02    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:   d:x2:u2:5   d:x2:u2:6   d:x2:u2:3   d:x2:u2:1   d:x2:u2:2
+Model:   x2:u2:y     x2:u2:y    x2:u2:dc   x2:u2:dbias x2:u2:dbias
+Id:     -1.01e-12    1.33e-05    6.32e-03   -4.00e-06   -4.00e-06
+Vd:     -1.01e+00    1.01e+00    3.00e+01   -1.50e+01   -1.51e+01
+Req:     1.00e-12    1.00e-03    1.00e-02    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:   d:x2:u3:5   d:x2:u3:6   d:x2:u3:3   d:x2:u3:1   d:x2:u3:2
+Model:   x2:u3:y     x2:u3:y    x2:u3:dc   x2:u3:dbias x2:u3:dbias
+Id:      2.29e-16   -2.29e-16    6.32e-03   -4.00e-06   -4.00e-06
+Vd:      2.29e-04   -2.29e-04    3.00e+01   -1.50e+01   -1.50e+01
+Req:     1.00e-12    1.00e-12    1.00e-02    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:  d:x3:u2:i1   d:x3:u2:1   d:x3:u2:2   d:x3:u2:3   d:x3:u2:4
+Model:  x3:u2:dx    x3:u2:dx    x3:u2:dx    x3:u2:dx    x3:u2:dx
+Id:     -1.04e-11   -2.54e-11    1.10e-04   -5.17e-12    1.01e-02
+Vd:     -1.04e+01   -2.54e+01    6.57e-01   -5.16e+00    7.74e-01
+Req:     1.00e+12    1.00e+12    2.36e+02    1.00e+12    2.57e+00
+CAP:     2.97e-13    1.95e-13    1.64e-12    4.03e-13    1.80e-12
+
+Name:   d:x3:u2:5   d:x3:u2:6  d:x3:u2:n1  d:x3:u2:n2  d:x3:u2:n3
+Model:  x3:u2:dx    x3:u2:dx    x3:u2:den   x3:u2:den   x3:u2:din
+Id:     -2.08e-11    3.17e-02    8.63e-04    8.63e-04    1.26e-04
+Vd:     -2.08e+01    8.04e-01    2.00e+00    2.00e+00    2.00e+00
+Req:     1.00e+12    8.15e-01    3.00e+01    3.00e+01    2.06e+02
+CAP:     2.14e-13    1.84e-12    0.00e+00    0.00e+00    0.00e+00
+
+Name:  d:x3:u2:n4  d:x3:u2:n5  d:x3:u2:n6   d:x3:u2:7   d:x3:u2:8
+Model:  x3:u2:din   x3:u2:din   x3:u2:din   x3:u2:dy    x3:u2:dy
+Id:      1.26e-04    1.26e-04    1.26e-04   -3.17e-02   -2.92e-11
+Vd:      2.00e+00    2.00e+00    2.00e+00   -5.08e+01   -2.92e+01
+Req:     2.06e+02    2.06e+02    2.06e+02    8.15e-01    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    1.39e-13    1.82e-13
+
+Name:   d:x4:u1:5   d:x4:u1:6   d:x4:u1:3   d:x4:u1:1   d:x4:u1:2
+Model:   x4:u1:y     x4:u1:y    x4:u1:dc   x4:u1:dbias x4:u1:dbias
+Id:      1.08e-17   -1.08e-17    2.34e-19    2.54e-12    6.75e-13
+Vd:      1.08e-05   -1.08e-05    2.34e-10    2.54e-09    6.75e-10
+Req:     1.00e-12    1.00e-12    1.00e-09    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:   d:x4:u2:5   d:x4:u2:6   d:x4:u2:3   d:x4:u2:1   d:x4:u2:2
+Model:   x4:u2:y     x4:u2:y    x4:u2:dc   x4:u2:dbias x4:u2:dbias
+Id:      1.08e-17   -1.08e-17    2.34e-19    8.46e-13    1.43e-13
+Vd:      1.08e-05   -1.08e-05    2.34e-10    8.46e-10    1.43e-10
+Req:     1.00e-12    1.00e-12    1.00e-09    1.00e-03    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:x4:1      d:x4:2
+Model:      d           d
+Id:     -1.10e-21    1.33e-21
+Vd:     -7.92e-10    9.63e-10
+Req:     7.21e+11    7.21e+11
+CAP:     0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:x1:1      q:x1:2
+Model:    2n3904      2n3904
+Ib:       2.57e-06    2.57e-06
+Ic:       8.53e-04    8.53e-04
+Vbe:      6.49e-01    6.49e-01
+Vbc:     -1.07e+01   -1.07e+01
+Vce:      1.14e+01    1.14e+01
+BetaDC:   3.31e+02    3.31e+02
+Gm:       3.29e-02    3.29e-02
+Rpi:      1.00e+04    1.00e+04
+Rx:       2.00e+01    2.00e+01
+Ro:       1.30e+05    1.30e+05
+Cbe:      2.40e-11    2.40e-11
+Cbc:      1.63e-12    1.63e-12
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   3.31e+02    3.31e+02
+Cbx:      0.00e+00    0.00e+00
+Ft:       2.04e+08    2.04e+08
+
+                        --- JFET Transistors ---
+Name:   j:x3:u2:1   j:x3:u2:2
+Model:  x3:u2:jx    x3:u2:jx
+Id:      1.35e-03    1.35e-03
+Vgs:    -8.68e-01   -8.69e-01
+Vds:     1.21e+01    1.21e+01
+Gm:      4.29e-03    4.28e-03
+Gds:     0.00e+00    0.00e+00
+Cgs:     1.10e-12    1.10e-12
+Cgd:     4.01e-13    4.01e-13
+
+                        --- VDMOSFET Transistors ---
+Name:       m:x1:u1:1   m:x1:u1:2   m:x2:u1:1   m:x2:u1:2   m:x2:u2:1
+Model:       x1:u1:n     x1:u1:p     x2:u1:n     x2:u1:p     x2:u2:n
+Id:          6.75e-04   -6.75e-04    6.79e-04   -6.71e-04    1.50e-11
+Vgs:        -4.90e-07   -4.90e-07    4.54e-04    4.54e-04   -1.01e+00
+Vds:         1.50e+01   -1.50e+01    1.48e+01   -1.52e+01    1.50e+01
+Vth:        -1.50e-01    1.50e-01   -1.50e-01    1.50e-01   -1.50e-01
+Gm:          9.00e-03    9.00e-03    9.03e-03    8.97e-03    0.00e+00
+Gds:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:       m:x2:u2:2   m:x2:u3:1   m:x2:u3:2   m:x4:u1:1   m:x4:u1:2
+Model:       x2:u2:p     x2:u3:n     x2:u3:p     x4:u1:n     x4:u1:p
+Id:         -4.05e-02    6.77e-04   -6.73e-04    1.05e-12   -1.05e-12
+Vgs:        -1.01e+00    2.29e-04    2.29e-04    1.08e-05    1.08e-05
+Vds:        -1.50e+01    1.50e+01   -1.50e+01    1.17e-10   -1.17e-10
+Vth:         1.50e-01   -1.50e-01    1.50e-01   -1.50e-01    1.50e-01
+Gm:          6.97e-02    9.01e-03    8.99e-03    7.01e-12    7.01e-12
+Gds:         0.00e+00    0.00e+00    0.00e+00    9.00e-03    9.00e-03
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:       m:x4:u2:1   m:x4:u2:2
+Model:       x4:u2:n     x4:u2:p
+Id:          1.11e-12   -9.89e-13
+Vgs:         1.08e-05    1.08e-05
+Vds:         1.24e-10   -1.10e-10
+Vth:        -1.50e-01    1.50e-01
+Gm:          7.43e-12    6.59e-12
+Gds:         9.00e-03    9.00e-03
+Cgs:         0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00
+
+
+Ignoring empty pin current: Ix(x1:in1)
+Ignoring empty pin current: Ix(x1:in1)
+
+Date: Thu Jan 18 13:25:02 2024
+Total elapsed time: 0.175 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 696
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 153
+fillins = 53
+solver = Normal
+Avg thread counts: 6.6/0.0/12.0/3.9
+Matrix Compiler1:     640 opcodes
+Matrix Compiler2: 13.79 KB object code size  1.3/2.1/[0.9]
+
